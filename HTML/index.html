@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+<!--NAVBAR-->
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+<!--TABEL-->
+    <div>
+        <h2>Tabel</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="2">Tahun</th>
+                    <th colspan="3">Wikipedia</th>
+                    <th rowspan="2">Players</th>
+                </tr>
+                <tr>
+                    <td>Game</td>
+                    <td>Genre</td>
+                    <td>Developer</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">2020</td>
+                    <td>Valorant</td>
+                    <td rowspan="2">FPS</td>
+                    <td>Riot</td>
+                    <td>>10jt players</td>
+                </tr>
+                <tr>
+                    <td>CSGO</td>
+                    <td>Steam</td>
+                    <td>>25jt players</td>
+                </tr>
+                <tr>
+                    <td>Dragon Nest</td>
+                    <td>MMORPG</td>
+                    <td>Garena</td>
+                    <td>>5jt players</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+<!--FORM--> 
+    <div>
+        <div>
+            <h2>Form</h2>
+            <form action="/proses" method="get">
+                <div>
+                    <label for="nama">Nama Lengkap :</label>
+                    <input type="text" placeholder="nama" id="nama" name="name" required>
+                </div>
+                <div>
+                    <label for="NIM">NIM</label>
+                    <input type="number" placeholder="NIM" id="NIM" name="NIM" required minlength="5">
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input type="password" placeholder="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="color">warna baju</label>
+                <input type="color" placeholder="color" id="color">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <form action="/order">
+                <div> 
+                    <label for="">Outwear</label>
+                    <img src="hoodie.jpeg" width="100px">
+                    <input type="radio" name="Outwear" value="hoodie" checked><label for="">hoodie</label>
+                    <img src="sweater.jpeg" width="100px">
+                    <input type="radio" name="Outwear" value="sweater"><label for="">sweater</label>
+                </div>
+                <div>
+                    <label for="">ukuran</label>
+                    <select name="ukuran" id="ukuran">
+                        <option>-</option>
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra Large</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="term">order nih ye</label>
+                    <input type="checkbox" name="order" id="order" value="ya">
+                </div>
+                <div>
+                    <div>
+                        <label for="notes">notes</label>
+                    </div>
+                    <textarea name="notes" id="notes" cols="20" rows="5"></textarea>
+                </div>
+                <button type="submit">order</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+</html>

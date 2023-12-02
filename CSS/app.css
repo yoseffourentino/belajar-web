@@ -1,0 +1,56 @@
+body {
+    
+}
+
+nav {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    max-width: 50%;
+
+}
+
+ul, li {
+    display: flex;
+    margin:0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    color: red;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    h1 {
+        color: blueviolet;
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    h1 {
+        color: blueviolet;
+        font-size: 2em;
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        
+    }
+}

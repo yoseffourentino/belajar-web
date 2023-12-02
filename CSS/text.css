@@ -1,0 +1,36 @@
+h1 {
+    color: brown;
+}
+
+h3 {
+    color: rgb(8, 121, 34);
+}
+
+input[type="text"] {
+    color: blueviolet;
+}
+
+h1 + p {
+    color: palevioletred;
+}
+
+p {
+    text-align: center;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.form:nth-of-type(2n) {
+    background-color: rgb(154, 207, 8);
+}
+
+input:checked + label {
+    box-shadow: 0 0 0 3px hotpink;
+    color: orangered;
+}
+
+h3:first-letter {
+    font-size: xx-large;
+}

@@ -1,0 +1,20 @@
+p {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    border-color: green;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    border-width: 15px;
+}
+
+p {
+    padding: 15px 50px;
+}
+
