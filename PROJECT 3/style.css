@@ -1,0 +1,111 @@
+
+html{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    margin: 0px auto;
+    background-color: rgb(243, 116, 218);
+
+}
+
+nav{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+nav img{
+    max-width: 200px;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.nav-kiri{
+    margin-left: 80px;
+
+}
+
+.nav-kiri a{
+    margin-right: 50px;
+
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+    margin: 10px;
+}
+
+.button{
+    border: solid 2px beige;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: black;
+}
+
+.button:hover{
+    background-color: beige;
+    color: black;
+}
+
+.isian-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(6, 6, 6);
+    border-radius: 50px;
+    padding: 50px;
+}
+.content-kanan{
+    display: flex;
+    align-items: center;
+}
+
+.content-kanan img{
+    width: 550px;
+    border-radius: 50px;
+}
+
+
+.isian-kiri{
+    max-width: 300px;
+    color: beige;
+}
+
+.content-footer{
+    color: beige;
+}
+
+.content-logo-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.content-logo-icon img{
+    max-width: 30px;
+}
+
+.fav-song{
+    display: flex;
+    gap: 30px;
+}
